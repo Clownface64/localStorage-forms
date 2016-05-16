@@ -12,8 +12,43 @@
 	</head>
 
 	<body>
-	
-		<!-- main content goes here -->
+		
+		<form action="" method="">
+			<div>
+				<label for="full-name">Full Name</label>
+				<input type="text" id="full-name">
+			</div>
 
+			<div>
+				<label for="country">Country</label>
+				<select id="country">
+					<option value="">Please Select</option>
+					<option value="nz">New Zealand</option>
+					<option value="usa">United States of America</option>
+					<option value="aus">Australia</option>
+					<option value="eng">England</option>
+				</select>
+			</div>
+
+			<div>
+				<input type="radio" id="shipping-int" name="shipping">
+				<label for="shipping-int">International</label>
+			</div>
+			<div>
+				<input type="radio" id="shipping-ni" name="shipping">
+				<label for="shipping-ni">North Island</label>
+			</div>
+			<div>
+				<input type="radio" id="shipping-si" name="shipping">
+				<label for="shipping-si">South Island</label>
+			</div>
+
+			<div>
+				<label for="tac">I agree to the terms and conditions</label>
+				<input type="checkbox" id="tac">
+			</div>
+		</form>
+		<!-- main content goes here -->
+<script src="js/shipping-form.js"></script>
 	</body>
 </html>
